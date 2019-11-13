@@ -50,8 +50,7 @@ def total_gross(source)
   index = 0
   ary_dir = list_of_directors(source)
   while index < directors_totals(source).count do
-    result = directors_totals(source)
-    total += result[ary_dir][index]
+    total += directors_totals(source)[ary_dir]
     index += 1
   end
 end
