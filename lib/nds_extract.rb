@@ -53,4 +53,5 @@ def total_gross(source)
     total += directors_totals(source)[ary_dir[index]]
     index += 1
   end
+  total
 end
